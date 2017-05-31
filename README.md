@@ -11,7 +11,7 @@ It is recommended to use [composer](https://getcomposer.org) to install the libr
 $ composer require samkoch/yii2-user
 $ ./yii migrate/up --migrationPath=@vendor/samkoch/yii2-user/src/migrations
 ```
-Add the following to conig/params.php:
+Add the following to config/params.php:
 
 ```php
     'login' => [
